@@ -13,12 +13,14 @@
 /* import theme modules */
 @import url('https://fonts.googleapis.com/css2?family=Epunda+Sans&display=swap');
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
-
+:root{
+    --font-primary: "Epunda Sans";
+}
 body {
     /* font, change to '' for default discord font */
-    /* --font: 'Epunda Sans'; change to '' for default discord font */
-   /* --code-font: '';  change to '' for default discord font */
-    /*font-weight: 400  normal text font weight. DOES NOT AFFECT BOLD TEXT */;
+     --font: 'Epunda Sans'; /*change to '' for default discord font */
+     --code-font: ''; /*  change to '' for default discord font */
+     font-weight: 400 /* normal text font weight. DOES NOT AFFECT BOLD TEXT */;
 
     /* sizes */
     --gap: 12px; /* spacing between panels */
